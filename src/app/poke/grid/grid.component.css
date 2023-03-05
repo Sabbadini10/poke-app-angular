@@ -1,6 +1,15 @@
+mat-grid-list{
+  column-count: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+
+
 .btns{
  display: flex;
  flex-direction: row;
  justify-content: center;
  gap: 4em;
+ margin-bottom: 1em;
 }

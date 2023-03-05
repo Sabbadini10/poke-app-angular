@@ -1,9 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+
+
 .example-card{
-  background-color: black;
-  color: aliceblue;
+  width: 200px;
+  height: 280px;
+  margin: 1em 0em;
+  box-sizing: border-box;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
 }
 
 .imagen-card-header{
-width: 150px;
-height: 90px;
+width: 190px;
+height: 120px;
+display:flex;
+  justify-content: center;
+}
+
+
+.card-title{
+  display:flex;
+  justify-content: center;
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.card-subtitle{
+  display:flex;
+  justify-content: flex-start;
+  font-family: 'Inconsolata', monospace;
+  color: aliceblue;
+  font-size: 15px;
 }

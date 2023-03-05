@@ -3,6 +3,9 @@
   [src]="url"
   [alt]="info.name"/>
   <mat-card-content>
-    <mat-card-title>{{info.name}}</mat-card-title>
+    <mat-card-title class="card-title">{{info.name}}</mat-card-title>
+    <mat-card-subtitle class="card-subtitle">Poderes: <br/> {{ability1}}, {{ability2}}</mat-card-subtitle>
+    <mat-card-subtitle class="card-subtitle">Peso: {{peso}}kg</mat-card-subtitle>
+    <mat-card-subtitle class="card-subtitle">Altura: {{alto}}cm</mat-card-subtitle>
   </mat-card-content>
 </mat-card>

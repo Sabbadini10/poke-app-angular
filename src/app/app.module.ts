@@ -4,6 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PokeModule } from './poke/poke.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 
 @NgModule({
   declarations: [
@@ -12,6 +14,7 @@ import { PokeModule } from './poke/poke.module';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    FlexLayoutModule,
     PokeModule
   ],
   providers: [],
